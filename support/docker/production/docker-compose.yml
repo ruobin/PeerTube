@@ -21,10 +21,10 @@ services:
 
   peertube:
     # If you don't want to use the official image and build one from sources
-    # build:
-    #   context: .
-    #   dockerfile: ./support/docker/production/Dockerfile.stretch
-    image: chocobozzz/peertube:production-stretch
+    build:
+      context: .
+      dockerfile: ./support/docker/production/Dockerfile.stretch
+    # image: chocobozzz/peertube:production-stretch
     env_file:
       - .env
     # Traefik labels are suggested as an example for people using Traefik,
@@ -42,7 +42,7 @@ services:
     depends_on:
       - postgres
       - redis
-      - postfix
+      # - postfix
     restart: "always"
 
   postgres:
@@ -65,13 +65,13 @@ services:
     labels:
       traefik.enable: "false"
 
-  postfix:
-    image: mwader/postfix-relay
-    environment:
-      - POSTFIX_myhostname=${PEERTUBE_WEBSERVER_HOSTNAME}
-    labels:
-      traefik.enable: "false"
-    restart: "always"
+  # postfix:
+  #   image: mwader/postfix-relay
+  #   environment:
+  #     - POSTFIX_myhostname=${PEERTUBE_WEBSERVER_HOSTNAME}
+  #   labels:
+  #     traefik.enable: "false"
+  #   restart: "always"
 
 networks:
   default:

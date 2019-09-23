@@ -41,7 +41,7 @@ defaultEntryPoints = ["http", "https"]
 #
 # Required
 #
-email = "<MY EMAIL ADDRESS>"
+email = "sysustriker@gmail.com"
 
 # File or key used for certificates storage.
 #
@@ -60,7 +60,7 @@ entryPoint = "https"
 # Domains list.
 #
 [[acme.domains]]
-  main = "<MY DOMAIN>"
+  main = "soft123.ml"
 
 # Use a HTTP-01 acme challenge rather than TLS-SNI-01 challenge
 #

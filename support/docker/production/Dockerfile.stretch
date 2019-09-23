@@ -3,7 +3,7 @@ FROM node:10-stretch
 # Allow to pass extra options to the npm run build
 # eg: --light --light-fr to not build all client languages
 #     (speed up build time if i18n is not required)
-ARG NPM_RUN_BUILD_OPTS
+ARG NPM_RUN_BUILD_OPTS=light
 
 RUN set -ex; \
     if ! command -v gpg > /dev/null; then \

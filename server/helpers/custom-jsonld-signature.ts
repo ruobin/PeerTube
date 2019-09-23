@@ -79,6 +79,6 @@ jsonld.documentLoader = (url, cb) => {
   lru.get(url, cb)
 }
 
-jsig.use('jsonld', jsonld)
+// jsig.use('jsonld', jsonld)
 
 export { jsig, jsonld }

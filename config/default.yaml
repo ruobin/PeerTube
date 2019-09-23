@@ -7,7 +7,7 @@ listen:
 webserver:
   https: false
   hostname: 'localhost'
-  port: 9000
+  port: 80
 
 rates_limit:
   api:
@@ -39,7 +39,7 @@ database:
   port: 5432
   suffix: '_dev'
   username: 'peertube'
-  password: 'peertube'
+  password: '299792'
   pool:
     max: 5
 
