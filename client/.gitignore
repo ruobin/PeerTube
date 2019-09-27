@@ -7,3 +7,4 @@
 /src/locale/target/iso639_*.xml
 /src/locale/target/player_*.xml
 /src/locale/target/server_*.xml
+package-lock.json
