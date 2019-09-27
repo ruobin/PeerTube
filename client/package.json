@@ -62,7 +62,7 @@
     "@types/linkifyjs": "^2.1.2",
     "@types/lodash-es": "^4.17.0",
     "@types/markdown-it": "^0.0.5",
-    "@types/node": "^10.9.2",
+    "@types/node": "^10.14.19",
     "@types/sanitize-html": "1.18.0",
     "@types/socket.io-client": "^1.4.32",
     "@types/video.js": "^7.2.5",
@@ -75,7 +75,7 @@
     "buffer": "^5.1.0",
     "cache-chunk-store": "^3.0.0",
     "codelyzer": "^5.0.1",
-    "core-js": "^3.1.4",
+    "core-js": "^2.5.7",
     "css-loader": "^3.1.0",
     "dexie": "^2.0.4",
     "extract-text-webpack-plugin": "4.0.0-beta.0",
@@ -133,5 +133,9 @@
     "webtorrent": "^0.105.1",
     "whatwg-fetch": "^3.0.0",
     "zone.js": "~0.10.0"
+  },
+  "dependencies": {
+    "@types/bluebird": "^3.5.27",
+    "bluebird": "^3.5.5"
   }
 }
