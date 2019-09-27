@@ -2,6 +2,8 @@
 /node_modules/
 /server/tools/node_modules
 *npm-debug.log
+package-lock.json
+/client/package-lock.json
 
 # Testing
 /test1/
@@ -36,6 +38,7 @@
 /scripts/i18n/generate-iso639-target.ts
 
 # Other
+/build/
 /profiling/
 /*.zip
 /*.tar.xz
