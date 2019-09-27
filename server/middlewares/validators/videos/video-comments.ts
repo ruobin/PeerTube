@@ -34,7 +34,7 @@ const listVideoThreadCommentsValidator = [
 
     if (areValidationErrors(req, res)) return
     if (!await doesVideoExist(req.params.videoId, res, 'only-video')) return
-    if (!await doesVideoCommentThreadExist(req.params.threadId, res.locals.video, res)) return
+    if (!await doesVideoCommentThreadExist(+req.params.threadId, res.locals.video, res)) return
 
     return next()
   }
@@ -67,7 +67,7 @@ const addVideoCommentReplyValidator = [
     if (areValidationErrors(req, res)) return
     if (!await doesVideoExist(req.params.videoId, res)) return
     if (!isVideoCommentsEnabled(res.locals.video, res)) return
-    if (!await doesVideoCommentExist(req.params.commentId, res.locals.video, res)) return
+    if (!await doesVideoCommentExist(+req.params.commentId, res.locals.video, res)) return
     if (!await isVideoCommentAccepted(req, res, true)) return
 
     return next()
@@ -83,7 +83,7 @@ const videoCommentGetValidator = [
 
     if (areValidationErrors(req, res)) return
     if (!await doesVideoExist(req.params.videoId, res, 'id')) return
-    if (!await doesVideoCommentExist(req.params.commentId, res.locals.video, res)) return
+    if (!await doesVideoCommentExist(+req.params.commentId, res.locals.video, res)) return
 
     return next()
   }
@@ -98,7 +98,7 @@ const removeVideoCommentValidator = [
 
     if (areValidationErrors(req, res)) return
     if (!await doesVideoExist(req.params.videoId, res)) return
-    if (!await doesVideoCommentExist(req.params.commentId, res.locals.video, res)) return
+    if (!await doesVideoCommentExist(+req.params.commentId, res.locals.video, res)) return
 
     // Check if the user who did the request is able to delete the video
     if (!checkUserCanDeleteVideoComment(res.locals.oauth.token.User, res.locals.videoComment, res)) return

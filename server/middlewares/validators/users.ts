@@ -110,7 +110,7 @@ const usersRemoveValidator = [
     logger.debug('Checking usersRemove parameters', { parameters: req.params })
 
     if (areValidationErrors(req, res)) return
-    if (!await checkUserIdExist(req.params.id, res)) return
+    if (!await checkUserIdExist(+req.params.id, res)) return
 
     const user = res.locals.user
     if (user.username === 'root') {
@@ -130,7 +130,7 @@ const usersBlockingValidator = [
     logger.debug('Checking usersBlocking parameters', { parameters: req.params })
 
     if (areValidationErrors(req, res)) return
-    if (!await checkUserIdExist(req.params.id, res)) return
+    if (!await checkUserIdExist(+req.params.id, res)) return
 
     const user = res.locals.user
     if (user.username === 'root') {
@@ -172,7 +172,7 @@ const usersUpdateValidator = [
     logger.debug('Checking usersUpdate parameters', { parameters: req.body })
 
     if (areValidationErrors(req, res)) return
-    if (!await checkUserIdExist(req.params.id, res)) return
+    if (!await checkUserIdExist(+req.params.id, res)) return
 
     const user = res.locals.user
     if (user.username === 'root' && req.body.role !== undefined && user.role !== req.body.role) {
@@ -246,7 +246,7 @@ const usersGetValidator = [
     logger.debug('Checking usersGet parameters', { parameters: req.params })
 
     if (areValidationErrors(req, res)) return
-    if (!await checkUserIdExist(req.params.id, res)) return
+    if (!await checkUserIdExist(+req.params.id, res)) return
 
     return next()
   }
@@ -318,7 +318,7 @@ const usersResetPasswordValidator = [
     logger.debug('Checking usersResetPassword parameters', { parameters: req.params })
 
     if (areValidationErrors(req, res)) return
-    if (!await checkUserIdExist(req.params.id, res)) return
+    if (!await checkUserIdExist(+req.params.id, res)) return
 
     const user = res.locals.user
     const redisVerificationString = await Redis.Instance.getResetPasswordLink(user.id)
@@ -365,7 +365,7 @@ const usersVerifyEmailValidator = [
     logger.debug('Checking usersVerifyEmail parameters', { parameters: req.params })
 
     if (areValidationErrors(req, res)) return
-    if (!await checkUserIdExist(req.params.id, res)) return
+    if (!await checkUserIdExist(+req.params.id, res)) return
 
     const user = res.locals.user
     const redisVerificationString = await Redis.Instance.getVerifyEmailLink(user.id)

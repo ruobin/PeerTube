@@ -18,7 +18,7 @@ const videosShareValidator = [
 
     const video = res.locals.video
 
-    const share = await VideoShareModel.load(req.params.actorId, video.id)
+    const share = await VideoShareModel.load(+req.params.actorId, video.id)
     if (!share) {
       return res.status(404)
                 .end()

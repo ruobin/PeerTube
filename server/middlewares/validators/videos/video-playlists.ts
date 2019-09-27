@@ -225,7 +225,7 @@ const videoPlaylistsUpdateOrRemoveVideoValidator = [
 
     const videoPlaylist = res.locals.videoPlaylist
 
-    const videoPlaylistElement = await VideoPlaylistElementModel.loadById(req.params.playlistElementId)
+    const videoPlaylistElement = await VideoPlaylistElementModel.loadById(+req.params.playlistElementId)
     if (!videoPlaylistElement) {
       res.status(404)
          .json({ error: 'Video playlist element not found' })

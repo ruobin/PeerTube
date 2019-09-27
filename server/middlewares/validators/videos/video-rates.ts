@@ -34,7 +34,7 @@ const getAccountVideoRateValidator = function (rateType: VideoRateType) {
 
       if (areValidationErrors(req, res)) return
 
-      const rate = await AccountVideoRateModel.loadLocalAndPopulateVideo(rateType, req.params.name, req.params.videoId)
+      const rate = await AccountVideoRateModel.loadLocalAndPopulateVideo(rateType, req.params.name, +req.params.videoId)
       if (!rate) {
         return res.status(404)
                   .json({ error: 'Video rate not found' })
