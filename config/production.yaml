@@ -136,7 +136,7 @@ tracker:
   # Only handle requests on your videos.
   # If you set this to false it means you have a public tracker.
   # Then, it is possible that clients overload your instance with external torrents
-  private: true
+  private: false
   # Reject peers that do a lot of announces (could improve privacy of TCP/UDP peers)
   reject_too_many_announces: false
 
@@ -250,15 +250,15 @@ auto_blacklist:
 
 # Instance settings
 instance:
-  name: 'PeerTube'
-  short_description: 'PeerTube, a federated (ActivityPub) video streaming platform using P2P (BitTorrent) directly in the web browser with WebTorrent and Angular.'
+  name: 'Dancing Room'
+  short_description: 'Dancing Room, a video streaming platform for hot dancing collections.'
   description: '' # Support markdown
   terms: '' # Support markdown
   default_client_route: '/videos/trending'
   # Whether or not the instance is dedicated to NSFW content
   # Enabling it will allow other administrators to know that you are mainly federating sensitive content
   # Moreover, the NSFW checkbox on video upload will be automatically checked by default
-  is_nsfw: false
+  is_nsfw: true
   # By default, "do_not_list" or "blur" or "display" NSFW videos
   # Could be overridden per user with a setting
   default_nsfw_policy: 'do_not_list'
