@@ -43,8 +43,8 @@ if [ -z ${1+x} ] || [ "$1" != "--light" ]; then
         # Supported languages
         languages=(
             "zh_Hans_CN"
-            # "fi_FI" "nl_NL" "gd" "el_GR" "es_ES" "oc" "pt_BR" "pt_PT" "sv_SE" "pl_PL" "ru_RU" "zh_Hans_CN" "zh_Hant_TW"
-            # "fr_FR" "ja_JP" "eu_ES" "ca_ES" "cs_CZ" "eo" "de_DE" "it_IT"
+            "fi_FI" "nl_NL" "gd" "el_GR" "es_ES" "oc" "pt_BR" "pt_PT" "sv_SE" "pl_PL" "ru_RU" "zh_Hans_CN" "zh_Hant_TW"
+            "fr_FR" "ja_JP" "eu_ES" "ca_ES" "cs_CZ" "eo" "de_DE" "it_IT"
         )
     fi
 
