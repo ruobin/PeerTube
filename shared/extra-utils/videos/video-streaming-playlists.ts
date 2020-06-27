@@ -2,6 +2,7 @@ import { makeRawRequest } from '../requests/requests'
 import { sha256 } from '../../../server/helpers/core-utils'
 import { VideoStreamingPlaylist } from '../../models/videos/video-streaming-playlist.model'
 import { expect } from 'chai'
+import { logger } from '../../../server/helpers/logger'
 
 function getPlaylist (url: string, statusCodeExpected = 200) {
   return makeRawRequest(url, statusCodeExpected)
@@ -38,6 +39,10 @@ async function checkSegmentHash (
   console.log('============================ ruobin checkSegmentHash length = %s.', length)
   console.log('============================ ruobin checkSegmentHash offset = %s.', offset)
   console.log('============================ ruobin checkSegmentHash range = %s.', range)
+
+  logger.warn('============================ ruobin checkSegmentHash length = %s.', length)
+  logger.warn('============================ ruobin checkSegmentHash offset = %s.', offset)
+  logger.warn('============================ ruobin checkSegmentHash range = %s.', range)
 
 
   const resSha = await getSegmentSha256(hlsPlaylist.segmentsSha256Url)

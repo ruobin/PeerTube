@@ -104,6 +104,7 @@ function getRangesFromPlaylist (playlistContent: string) {
   }
 
   console.log('============================ ruobin getRangesFromPlaylist ranges = %s.', ranges)
+  logger.warn('============================ ruobin getRangesFromPlaylist ranges = %s.', ranges)
   return ranges
 }
 
