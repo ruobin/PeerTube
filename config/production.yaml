@@ -132,7 +132,7 @@ csp:
 
 tracker:
   # If you disable the tracker, you disable the P2P aspect of PeerTube
-  enabled: true
+  enabled: false
   # Only handle requests on your videos.
   # If you set this to false it means you have a public tracker.
   # Then, it is possible that clients overload your instance with external torrents
@@ -232,7 +232,7 @@ transcoding:
   #     * More stable playback (less bugs/infinite loading)
   # /!\ Multiplies videos storage by 2 /!\
   hls:
-    enabled: false
+    enabled: true
 
 import:
   # Add ability for your users to import remote videos (from YouTube, torrent...)

@@ -1,0 +1,209 @@
+  UNIT                                                                                        LOAD   ACTIVE SUB       DESCRIPTION
+  proc-sys-fs-binfmt_misc.automount                                                           loaded active running   Arbitrary Executable File Formats File System Automount Point
+  sys-devices-pci0000:00-0000:00:04.0-virtio1-virtio\x2dports-vport1p1.device                 loaded active plugged   /sys/devices/pci0000:00/0000:00:04.0/virtio1/virtio-ports/vport1p1
+  sys-devices-pci0000:00-0000:00:05.0-virtio2-host2-target2:0:0-2:0:0:0-block-sda-sda1.device loaded active plugged   QEMU_HARDDISK 1
+  sys-devices-pci0000:00-0000:00:05.0-virtio2-host2-target2:0:0-2:0:0:0-block-sda-sda2.device loaded active plugged   QEMU_HARDDISK ROOTPART
+  sys-devices-pci0000:00-0000:00:05.0-virtio2-host2-target2:0:0-2:0:0:0-block-sda.device      loaded active plugged   QEMU_HARDDISK
+  sys-devices-pci0000:00-0000:00:06.0-virtio3-virtio\x2dports-vport3p1.device                 loaded active plugged   /sys/devices/pci0000:00/0000:00:06.0/virtio3/virtio-ports/vport3p1
+  sys-devices-pci0000:00-0000:00:07.0-virtio4-virtio\x2dports-vport4p1.device                 loaded active plugged   /sys/devices/pci0000:00/0000:00:07.0/virtio4/virtio-ports/vport4p1
+  sys-devices-pci0000:00-0000:00:12.0-virtio5-net-eth0.device                                 loaded active plugged   Virtio network device
+  sys-devices-platform-serial8250-tty-ttyS0.device                                            loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS0
+  sys-devices-platform-serial8250-tty-ttyS1.device                                            loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS1
+  sys-devices-platform-serial8250-tty-ttyS10.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS10
+  sys-devices-platform-serial8250-tty-ttyS11.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS11
+  sys-devices-platform-serial8250-tty-ttyS12.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS12
+  sys-devices-platform-serial8250-tty-ttyS13.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS13
+  sys-devices-platform-serial8250-tty-ttyS14.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS14
+  sys-devices-platform-serial8250-tty-ttyS15.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS15
+  sys-devices-platform-serial8250-tty-ttyS16.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS16
+  sys-devices-platform-serial8250-tty-ttyS17.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS17
+  sys-devices-platform-serial8250-tty-ttyS18.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS18
+  sys-devices-platform-serial8250-tty-ttyS19.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS19
+  sys-devices-platform-serial8250-tty-ttyS2.device                                            loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS2
+  sys-devices-platform-serial8250-tty-ttyS20.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS20
+  sys-devices-platform-serial8250-tty-ttyS21.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS21
+  sys-devices-platform-serial8250-tty-ttyS22.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS22
+  sys-devices-platform-serial8250-tty-ttyS23.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS23
+  sys-devices-platform-serial8250-tty-ttyS24.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS24
+  sys-devices-platform-serial8250-tty-ttyS25.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS25
+  sys-devices-platform-serial8250-tty-ttyS26.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS26
+  sys-devices-platform-serial8250-tty-ttyS27.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS27
+  sys-devices-platform-serial8250-tty-ttyS28.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS28
+  sys-devices-platform-serial8250-tty-ttyS29.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS29
+  sys-devices-platform-serial8250-tty-ttyS3.device                                            loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS3
+  sys-devices-platform-serial8250-tty-ttyS30.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS30
+  sys-devices-platform-serial8250-tty-ttyS31.device                                           loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS31
+  sys-devices-platform-serial8250-tty-ttyS4.device                                            loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS4
+  sys-devices-platform-serial8250-tty-ttyS5.device                                            loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS5
+  sys-devices-platform-serial8250-tty-ttyS6.device                                            loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS6
+  sys-devices-platform-serial8250-tty-ttyS7.device                                            loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS7
+  sys-devices-platform-serial8250-tty-ttyS8.device                                            loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS8
+  sys-devices-platform-serial8250-tty-ttyS9.device                                            loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS9
+  sys-devices-virtual-block-ram0.device                                                       loaded active plugged   /sys/devices/virtual/block/ram0
+  sys-devices-virtual-block-ram1.device                                                       loaded active plugged   /sys/devices/virtual/block/ram1
+  sys-devices-virtual-block-ram10.device                                                      loaded active plugged   /sys/devices/virtual/block/ram10
+  sys-devices-virtual-block-ram11.device                                                      loaded active plugged   /sys/devices/virtual/block/ram11
+  sys-devices-virtual-block-ram12.device                                                      loaded active plugged   /sys/devices/virtual/block/ram12
+  sys-devices-virtual-block-ram13.device                                                      loaded active plugged   /sys/devices/virtual/block/ram13
+  sys-devices-virtual-block-ram14.device                                                      loaded active plugged   /sys/devices/virtual/block/ram14
+  sys-devices-virtual-block-ram15.device                                                      loaded active plugged   /sys/devices/virtual/block/ram15
+  sys-devices-virtual-block-ram2.device                                                       loaded active plugged   /sys/devices/virtual/block/ram2
+  sys-devices-virtual-block-ram3.device                                                       loaded active plugged   /sys/devices/virtual/block/ram3
+  sys-devices-virtual-block-ram4.device                                                       loaded active plugged   /sys/devices/virtual/block/ram4
+  sys-devices-virtual-block-ram5.device                                                       loaded active plugged   /sys/devices/virtual/block/ram5
+  sys-devices-virtual-block-ram6.device                                                       loaded active plugged   /sys/devices/virtual/block/ram6
+  sys-devices-virtual-block-ram7.device                                                       loaded active plugged   /sys/devices/virtual/block/ram7
+  sys-devices-virtual-block-ram8.device                                                       loaded active plugged   /sys/devices/virtual/block/ram8
+  sys-devices-virtual-block-ram9.device                                                       loaded active plugged   /sys/devices/virtual/block/ram9
+  sys-devices-virtual-misc-rfkill.device                                                      loaded active plugged   /sys/devices/virtual/misc/rfkill
+  sys-devices-virtual-net-ip_vti0.device                                                      loaded active plugged   /sys/devices/virtual/net/ip_vti0
+  sys-devices-virtual-tty-ttyprintk.device                                                    loaded active plugged   /sys/devices/virtual/tty/ttyprintk
+  sys-module-fuse.device                                                                      loaded active plugged   /sys/module/fuse
+  sys-subsystem-net-devices-eth0.device                                                       loaded active plugged   Virtio network device
+  sys-subsystem-net-devices-ip_vti0.device                                                    loaded active plugged   /sys/subsystem/net/devices/ip_vti0
+  -.mount                                                                                     loaded active mounted   /
+  boot.mount                                                                                  loaded active mounted   /boot
+  dev-hugepages.mount                                                                         loaded active mounted   Huge Pages File System
+  dev-mqueue.mount                                                                            loaded active mounted   POSIX Message Queue File System
+  proc-sys-fs-binfmt_misc.mount                                                               loaded active mounted   Arbitrary Executable File Formats File System
+  run-user-0.mount                                                                            loaded active mounted   /run/user/0
+  sys-fs-fuse-connections.mount                                                               loaded active mounted   FUSE Control File System
+  sys-kernel-debug-tracing.mount                                                              loaded active mounted   /sys/kernel/debug/tracing
+  sys-kernel-debug.mount                                                                      loaded active mounted   Debug File System
+  var-lib-lxcfs.mount                                                                         loaded active mounted   /var/lib/lxcfs
+  acpid.path                                                                                  loaded active running   ACPI Events Check
+  systemd-ask-password-console.path                                                           loaded active waiting   Dispatch Password Requests to Console Directory Watch
+  systemd-ask-password-wall.path                                                              loaded active waiting   Forward Password Requests to Wall Directory Watch
+  systemd-networkd-resolvconf-update.path                                                     loaded active waiting   Trigger resolvconf update for networkd DNS
+  init.scope                                                                                  loaded active running   System and Service Manager
+  session-1057.scope                                                                          loaded active abandoned Session 1057 of user root
+  session-1335.scope                                                                          loaded active abandoned Session 1335 of user root
+  session-1408.scope                                                                          loaded active abandoned Session 1408 of user root
+  session-3396.scope                                                                          loaded active abandoned Session 3396 of user root
+  session-354.scope                                                                           loaded active abandoned Session 354 of user root
+  session-3992.scope                                                                          loaded active running   Session 3992 of user root
+  session-634.scope                                                                           loaded active abandoned Session 634 of user root
+  session-885.scope                                                                           loaded active abandoned Session 885 of user root
+  session-891.scope                                                                           loaded active abandoned Session 891 of user root
+  session-893.scope                                                                           loaded active abandoned Session 893 of user root
+  accounts-daemon.service                                                                     loaded active running   Accounts Service
+  acpid.service                                                                               loaded active running   ACPI event daemon
+  apparmor.service                                                                            loaded active exited    LSB: AppArmor initialization
+  apport.service                                                                              loaded active exited    LSB: automatic crash report generation
+  atd.service                                                                                 loaded active running   Deferred execution scheduler
+[0;1;31m●[0m [0;1;31mcertbot.service                                                                            [0m loaded [0;1;31mfailed failed   [0m Certbot
+  console-setup.service                                                                       loaded active exited    Set console font and keymap
+  cron.service                                                                                loaded active running   Regular background program processing daemon
+  dbus.service                                                                                loaded active running   D-Bus System Message Bus
+  fail2ban.service                                                                            loaded active running   Fail2Ban Service
+  getty@tty1.service                                                                          loaded active running   Getty on tty1
+  grub-common.service                                                                         loaded active exited    LSB: Record successful boot for GRUB
+  guestfs-firstboot.service                                                                   loaded active exited    libguestfs firstboot service
+  gwarp.service                                                                               loaded active exited    LSB: STATIC ARP GW
+  ifup@eth0.service                                                                           loaded active exited    ifup for eth0
+  ipsec.service                                                                               loaded active running   Internet Key Exchange (IKE) Protocol Daemon for IPsec
+  irqbalance.service                                                                          loaded active running   LSB: daemon to balance interrupts for SMP systems
+  iscsid.service                                                                              loaded active running   iSCSI initiator daemon (iscsid)
+  keyboard-setup.service                                                                      loaded active exited    Set console keymap
+  kmod-static-nodes.service                                                                   loaded active exited    Create list of required static device nodes for the current kernel
+  lvm2-lvmetad.service                                                                        loaded active running   LVM2 metadata daemon
+  lvm2-monitor.service                                                                        loaded active exited    Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling
+  lxcfs.service                                                                               loaded active running   FUSE filesystem for LXC
+  lxd-containers.service                                                                      loaded active exited    LXD - container startup/shutdown
+  mdadm.service                                                                               loaded active running   LSB: MD monitoring daemon
+[0;1;31m●[0m [0;1;31mnetworking.service                                                                         [0m loaded [0;1;31mfailed failed   [0m Raise network interfaces
+  nginx.service                                                                               loaded active running   A high performance web server and a reverse proxy server
+  ocserv.service                                                                              loaded active running   OpenConnect SSL VPN server
+  ondemand.service                                                                            loaded active exited    LSB: Set the CPU Frequency Scaling governor to "ondemand"
+  open-iscsi.service                                                                          loaded active exited    Login to default iSCSI targets
+  peertube.service                                                                            loaded active running   PeerTube daemon
+  polkitd.service                                                                             loaded active running   Authenticate and Authorize Users to Run Privileged Tasks
+  postgresql.service                                                                          loaded active exited    PostgreSQL RDBMS
+  postgresql@9.5-main.service                                                                 loaded active running   PostgreSQL Cluster 9.5-main
+  qemu-guest-agent.service                                                                    loaded active running   LSB: QEMU Guest Agent startup script
+  qemukvmga.service                                                                           loaded active running   LSB: QEMU-KVM Guest Agent
+  rc-local.service                                                                            loaded active exited    /etc/rc.local Compatibility
+  redis-server.service                                                                        loaded active running   Advanced key-value store
+  resolvconf.service                                                                          loaded active exited    Nameserver information manager
+  rsyslog.service                                                                             loaded active running   System Logging Service
+  setvtrgb.service                                                                            loaded active exited    Set console scheme
+  snapd.seeded.service                                                                        loaded active exited    Wait until snapd is fully seeded
+  ssh.service                                                                                 loaded active running   OpenBSD Secure Shell server
+  systemd-fsck@dev-disk-by\x2duuid-fd5f28c0\x2d5105\x2d449d\x2da8b7\x2dfd937e80f438.service   loaded active exited    File System Check on /dev/disk/by-uuid/fd5f28c0-5105-449d-a8b7-fd937e80f438
+  systemd-journal-flush.service                                                               loaded active exited    Flush Journal to Persistent Storage
+  systemd-journald.service                                                                    loaded active running   Journal Service
+  systemd-logind.service                                                                      loaded active running   Login Service
+  systemd-machine-id-commit.service                                                           loaded active exited    Commit a transient machine-id on disk
+  systemd-modules-load.service                                                                loaded active exited    Load Kernel Modules
+  systemd-random-seed.service                                                                 loaded active exited    Load/Save Random Seed
+  systemd-remount-fs.service                                                                  loaded active exited    Remount Root and Kernel File Systems
+  systemd-sysctl.service                                                                      loaded active exited    Apply Kernel Variables
+  systemd-timesyncd.service                                                                   loaded active running   Network Time Synchronization
+  systemd-tmpfiles-setup-dev.service                                                          loaded active exited    Create Static Device Nodes in /dev
+  systemd-tmpfiles-setup.service                                                              loaded active exited    Create Volatile Files and Directories
+  systemd-udev-trigger.service                                                                loaded active exited    udev Coldplug all Devices
+  systemd-udevd.service                                                                       loaded active running   udev Kernel Device Manager
+  systemd-update-utmp.service                                                                 loaded active exited    Update UTMP about System Boot/Shutdown
+  systemd-user-sessions.service                                                               loaded active exited    Permit User Sessions
+  ufw.service                                                                                 loaded active exited    Uncomplicated firewall
+  user@0.service                                                                              loaded active running   User Manager for UID 0
+  uuidd.service                                                                               loaded active running   Daemon for generating UUIDs
+  vsftpd.service                                                                              loaded active running   vsftpd FTP server
+  xl2tpd.service                                                                              loaded active running   LSB: layer 2 tunelling protocol daemon
+  -.slice                                                                                     loaded active active    Root Slice
+  system-getty.slice                                                                          loaded active active    system-getty.slice
+  system-postgresql.slice                                                                     loaded active active    system-postgresql.slice
+  system-systemd\x2dfsck.slice                                                                loaded active active    system-systemd\x2dfsck.slice
+  system.slice                                                                                loaded active active    System Slice
+  user-0.slice                                                                                loaded active active    User Slice of root
+  user.slice                                                                                  loaded active active    User and Session Slice
+  acpid.socket                                                                                loaded active running   ACPID Listen Socket
+  dbus.socket                                                                                 loaded active running   D-Bus System Message Bus Socket
+  dm-event.socket                                                                             loaded active listening Device-mapper event daemon FIFOs
+  lvm2-lvmetad.socket                                                                         loaded active running   LVM2 metadata daemon socket
+  lvm2-lvmpolld.socket                                                                        loaded active listening LVM2 poll daemon socket
+  lxd.socket                                                                                  loaded active listening LXD - unix socket
+  ocserv.socket                                                                               loaded active running   OpenConnect SSL VPN server Socket
+  snapd.socket                                                                                loaded active listening Socket activation for snappy daemon
+  syslog.socket                                                                               loaded active running   Syslog Socket
+  systemd-fsckd.socket                                                                        loaded active listening fsck to fsckd communication Socket
+  systemd-initctl.socket                                                                      loaded active listening /dev/initctl Compatibility Named Pipe
+  systemd-journald-audit.socket                                                               loaded active running   Journal Audit Socket
+  systemd-journald-dev-log.socket                                                             loaded active running   Journal Socket (/dev/log)
+  systemd-journald.socket                                                                     loaded active running   Journal Socket
+  systemd-rfkill.socket                                                                       loaded active listening Load/Save RF Kill Switch Status /dev/rfkill Watch
+  systemd-udevd-control.socket                                                                loaded active running   udev Control Socket
+  systemd-udevd-kernel.socket                                                                 loaded active running   udev Kernel Socket
+  uuidd.socket                                                                                loaded active running   UUID daemon activation socket
+  swap.swap                                                                                   loaded active active    /swap
+  basic.target                                                                                loaded active active    Basic System
+  cryptsetup.target                                                                           loaded active active    Encrypted Volumes
+  getty.target                                                                                loaded active active    Login Prompts
+  graphical.target                                                                            loaded active active    Graphical Interface
+  local-fs-pre.target                                                                         loaded active active    Local File Systems (Pre)
+  local-fs.target                                                                             loaded active active    Local File Systems
+  multi-user.target                                                                           loaded active active    Multi-User System
+  network-online.target                                                                       loaded active active    Network is Online
+  network-pre.target                                                                          loaded active active    Network (Pre)
+  network.target                                                                              loaded active active    Network
+  nss-user-lookup.target                                                                      loaded active active    User and Group Name Lookups
+  paths.target                                                                                loaded active active    Paths
+  remote-fs-pre.target                                                                        loaded active active    Remote File Systems (Pre)
+  remote-fs.target                                                                            loaded active active    Remote File Systems
+  slices.target                                                                               loaded active active    Slices
+  sockets.target                                                                              loaded active active    Sockets
+  swap.target                                                                                 loaded active active    Swap
+  sysinit.target                                                                              loaded active active    System Initialization
+  time-sync.target                                                                            loaded active active    System Time Synchronized
+  timers.target                                                                               loaded active active    Timers
+  apt-daily-upgrade.timer                                                                     loaded active waiting   Daily apt upgrade and clean activities
+  apt-daily.timer                                                                             loaded active waiting   Daily apt download activities
+  certbot.timer                                                                               loaded active waiting   Run certbot twice daily
+  systemd-tmpfiles-clean.timer                                                                loaded active waiting   Daily Cleanup of Temporary Directories
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+[0;1;39m201 loaded units listed.[0m Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.
