@@ -45,7 +45,7 @@ function checkInitialConfig (server: ServerInfo, data: CustomConfig) {
   expect(data.signup.limit).to.equal(4)
   expect(data.signup.requiresEmailVerification).to.be.false
 
-  expect(data.admin.email).to.equal('admin' + server.internalServerNumber + '@example.com')
+  expect(data.admin.email).to.equal('sysustriker' + server.internalServerNumber + '@gmail.com')
   expect(data.contactForm.enabled).to.be.true
 
   expect(data.user.videoQuota).to.equal(5242880)

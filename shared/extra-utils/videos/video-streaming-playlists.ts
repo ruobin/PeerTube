@@ -32,8 +32,13 @@ async function checkSegmentHash (
   const length = parseInt(matches[1], 10)
   const offset = parseInt(matches[2], 10)
   const range = `${offset}-${offset + length - 1}`
-
+  
   const res2 = await getSegment(`${baseUrlSegment}/${videoUUID}/${videoName}`, 206, `bytes=${range}`)
+
+  console.log('============================ ruobin checkSegmentHash length = %s.', length)
+  console.log('============================ ruobin checkSegmentHash offset = %s.', offset)
+  console.log('============================ ruobin checkSegmentHash range = %s.', range)
+
 
   const resSha = await getSegmentSha256(hlsPlaylist.segmentsSha256Url)
 
